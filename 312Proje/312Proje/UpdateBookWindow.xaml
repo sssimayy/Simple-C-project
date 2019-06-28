@@ -1,0 +1,24 @@
+﻿<Window x:Class="_312Proje.UpdateBookWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312Proje"
+        mc:Ignorable="d"
+        Title="UpdateBookWindow" Height="450" Width="800">
+    <Grid Margin="-44,-8,0,0">
+        <Grid.ColumnDefinitions>
+
+        </Grid.ColumnDefinitions>
+        <Label Content="Kitap Güncelleme" HorizontalAlignment="Left" Margin="114,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="Stok" HorizontalAlignment="Left" Margin="114,151,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fiyat" HorizontalAlignment="Left" Margin="114,221,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Stoktextbox" HorizontalAlignment="Left" Height="23" Margin="206,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Fiyattextbox" HorizontalAlignment="Left" Height="23" Margin="206,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="UpdateBtn" Click="UpdateBtn_Click" Content="Güncelle" HorizontalAlignment="Left" Margin="322,288,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="kitapAdi_txt" HorizontalAlignment="Left" Height="23" Margin="206,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Kitap Numarası" HorizontalAlignment="Left" Margin="114,95,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
